@@ -12,5 +12,7 @@
 } 
 .masthead {
   background-color: white;
-  padding-top: calc(4rem + 75px);
+  padding-top: calc(4rem + 74px);
+  padding-bottom: 5vh;
+  margin-bottom: 0;
 }
