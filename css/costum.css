@@ -1,0 +1,16 @@
+#mainNav {
+  background-color: #AAC8A7;
+}
+
+.navbar-brand {
+  color: #E9FFC2;
+}
+
+.img-slide{
+  /* height: 70%; */
+  width: 100%;
+} 
+.masthead {
+  background-color: white;
+  padding-top: calc(4rem + 75px);
+}
