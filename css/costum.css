@@ -1,5 +1,12 @@
+body,
+h1,
+h2,
+h3 {
+  
+}
+
 #mainNav {
-  background-color: #AAC8A7;
+  background-color: #C4DFAA;
 }
 
 .navbar-brand {
