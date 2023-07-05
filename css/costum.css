@@ -23,3 +23,20 @@ h3 {
   padding-bottom: 5vh;
   margin-bottom: 0;
 }
+
+#sambutanKetuaRois {
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  #sambutanKetuaRois {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #sambutanKetuaRois img {
+    text-align: center;
+  }
+}
+
