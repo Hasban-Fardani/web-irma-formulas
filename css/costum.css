@@ -1,8 +1,5 @@
-body,
-h1,
-h2,
-h3 {
-  
+button.navbar-toggler {
+  background-color: rgb(97, 231, 254);
 }
 
 #mainNav {
