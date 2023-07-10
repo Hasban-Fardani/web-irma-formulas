@@ -6,6 +6,15 @@ button.navbar-toggler {
   background-color: #C4DFAA;
 }
 
+#parentStruktur{
+  display: flex;
+  justify-content: center;
+}
+
+#struktur {
+  width: 75%;
+}
+
 .navbar-brand {
   color: #E9FFC2;
 }
