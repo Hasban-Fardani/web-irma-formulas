@@ -19,3 +19,5 @@ if (width < 800) {
 
   btnJoinKuyBwh.style.display = "none"
 }
+
+alert("Maaf untuk sekarang Pendaftaran belum dibuka")
