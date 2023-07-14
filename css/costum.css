@@ -1,5 +1,6 @@
 button.navbar-toggler {
-  background-color: rgb(97, 231, 254);
+  background-color: #54dbb9;
+  border: none;
 }
 
 #mainNav {
@@ -15,6 +16,10 @@ button.navbar-toggler {
   width: 75%;
 }
 
+.lj {
+  background-color: #54dbb9;
+}
+
 .navbar-brand {
   color: #E9FFC2;
 }
@@ -23,9 +28,10 @@ button.navbar-toggler {
   /* height: 70%; */
   width: 100%;
 } 
+
 .masthead {
   background-color: white;
-  padding-top: calc(4rem + 74px);
+  padding-top: calc(2rem + 74px);
   padding-bottom: 5vh;
   margin-bottom: 0;
 }
@@ -40,7 +46,15 @@ button.navbar-toggler {
   margin: 3px 0;
 }
 
+
 @media only screen and (max-width: 800px) {
+  .masthead {
+    background-color: white;
+    padding-top: calc(1rem + 74px);
+    padding-bottom: 5vh;
+    margin-bottom: 0;
+  }
+
   #sambutanKetuaRois {
     flex-direction: row;
     flex-wrap: wrap;
