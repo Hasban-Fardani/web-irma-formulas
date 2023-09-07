@@ -1,10 +1,10 @@
 <template lang="">
-  <nav class="p-3">
+  <nav class="p-3 px-4 flex items-center justify-between">
     <div>
       <img src="~/assets/img/logo-irma.png" alt="" width="50" height="50">
     </div>
-    <div>
-
+    <div class="">
+      <nuxt-link to="/pemiros/login" class="rounded-md bg-green-300 p-2">Login</nuxt-link>
     </div>
   </nav>
 </template>

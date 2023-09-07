@@ -1,7 +1,7 @@
 <template lang="">
-  <footer class="text-center">
-    this is pemiros footer
-  </footer>
+  <div>
+    
+  </div>
 </template>
 <script>
 export default {

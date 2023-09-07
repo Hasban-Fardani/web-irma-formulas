@@ -1,19 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  components: [
-    {
-      path: '~/components',
-      extensions: ['.vue'],
-    },
-  ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
   css: [
     'bootstrap/dist/css/bootstrap.css',
     '~/assets/main.css',
     'animate.css/animate.min.css'
   ],
   plugins: [
-    {src: '~/plugins/bootstrap.js', mode: 'client'}
+    {src: '~/plugins/plugins.js', mode: 'client'}
   ],
   postcss: {
     plugins: {
@@ -21,4 +18,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  
 })

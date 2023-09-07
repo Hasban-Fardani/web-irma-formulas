@@ -1,14 +1,14 @@
 <template lang="">
   <nav class="p-3 flex justify-between top-0 font-sans font-medium bg-green-50">
-    <a href="/" class="flex items-center mx-4">
-      <img src="~/assets/img/logo-irma.png" alt="" width="50" height="50" />
+    <NuxtLink to="/" class="flex items-center mx-4">
+      <img src="~/assets/img/logo-irma.png" alt="" class="w-[50px] h-auto "/>
       <h1 class="mx-3">IRMA FORMULAS</h1>
-    </a>
+    </NuxtLink>
     <ul class="flex items-center gap-3 mx-4 font-normal">
-      <li><a href="/" :class="{ 'font-bold': route.path == '/' }">Home</a></li>
+      <li><NuxtLink to="/" :class="{ 'font-bold': route.path == '/' }">Home</NuxtLink></li>
       <li>
-        <a href="/about" :class="{ 'font-bold': route.path == '/about' }"
-          >About</a
+        <NuxtLink to="/about" :class="{ 'font-bold': route.path == '/about' }"
+          >About</NuxtLink
         >
       </li>
     </ul>
@@ -24,3 +24,4 @@ nav {
   box-shadow: 0 3px 6px -6px #222;
 }
 </style>
+
