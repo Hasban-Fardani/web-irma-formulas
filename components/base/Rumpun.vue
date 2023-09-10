@@ -31,7 +31,6 @@ img {
   border: 1px solid black;
   border-radius: 6px;
   cursor: pointer;
-  /* filter: brightness(90%); */
 }
 img:hover {
   filter: brightness(90%);

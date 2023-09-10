@@ -1,23 +1,13 @@
+<script setup>
+</script>
 <template lang="">
-  
-    <BaseHeader
-    :links="links"
-    />
+
+    <BaseSlider :images="links"/>
     <main class="my-14">
-      <h2 class="text-center text-4xl sm:text-xl font-semibold animate__animated animate__fadeInLeft my-4">
+      <h2 class="text-center text-4xl sm:text-xl font-semibold my-4 animate-fade-left animate-once animate-duration-[999ms] animate-ease-out">
         Rumpun - Rumpun
       </h2>
-      <!-- <BaseRumpun/> -->
       <div class="flex flex-wrap items-center justify-center gap-4 mx-4">
-
-        <!-- <BaseModal title="Test aja" id="modal1" >
-          <template #trigger>
-            <img src="~/assets/img/logo-rumpun/dakwah.png" alt="">
-          </template>
-          <template #content>
-            <h1>Hello From Modal</h1>
-          </template>
-        </BaseModal> -->
         <img src="~/assets/img/logo-rumpun/dakwah.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
         <img src="~/assets/img/logo-rumpun/mtq.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
         <img src="~/assets/img/logo-rumpun/hadroh.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
@@ -37,7 +27,7 @@
           "~/assets/img/slide/jb-3-min.png",
         ]
       }
-    }
+    },
   }
 </script>
 

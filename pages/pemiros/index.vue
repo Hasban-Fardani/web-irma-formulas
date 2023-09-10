@@ -1,5 +1,5 @@
 <template lang="">
-  <BaseHeader :links="links" />
+  <BaseSlider :images="links" />
   <h2 class="my-4 mt-20 flex justify-center items-center text-[25pt] font-bold">
     Detail Paslon
   </h2>
@@ -43,6 +43,10 @@ const links = [
   "https://picsum.photos/1200/600",
   "https://picsum.photos/1200/600",
 ];
+
+const data = await $fetch('/api/hello');
+
+
 definePageMeta({
   layout: "pemiros",
 });
@@ -66,6 +70,7 @@ nav {
 }
 
 .modal-open {
+  filter: brightness(50%);
   background-color: rgba(0, 0, 0, 0.5);
 }
 </style>

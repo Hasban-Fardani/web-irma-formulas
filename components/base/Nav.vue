@@ -1,27 +1,31 @@
 <template lang="">
-  <nav class="p-3 flex justify-between top-0 font-sans font-medium bg-green-50">
-    <NuxtLink to="/" class="flex items-center mx-4">
-      <img src="~/assets/img/logo-irma.png" alt="" class="w-[50px] h-auto "/>
-      <h1 class="mx-3">IRMA FORMULAS</h1>
-    </NuxtLink>
-    <ul class="flex items-center gap-3 mx-4 font-normal">
-      <li><NuxtLink to="/" :class="{ 'font-bold': route.path == '/' }">Home</NuxtLink></li>
-      <li>
-        <NuxtLink to="/about" :class="{ 'font-bold': route.path == '/about' }"
-          >About</NuxtLink
-        >
+  <nav class="navbar bg-base-100 p-4">
+    <div class="flex-1">
+      <nuxt-link to="/" class="flex items-center gap-2 normal-case text-xl">
+        <img src="~/assets/img/logo-irma.png" alt="" class="w-[50px] h-auto" />
+        IRMA FORMULAS
+      </nuxt-link>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li>
+          <nuxt-link to="/about">
+          About
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/pemiros">
+          Pemiros
+        </nuxt-link>
       </li>
-    </ul>
+        
+      </ul>
+    </div>
   </nav>
 </template>
-
-<script setup lang="ts">
-const route = useRoute();
-</script>
 
 <style lang="css">
 nav {
   box-shadow: 0 3px 6px -6px #222;
 }
 </style>
-

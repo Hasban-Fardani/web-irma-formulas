@@ -1,7 +1,7 @@
 <template lang="">
-  <BaseNav></BaseNav>
-  <slot/>
-  <BaseFooter></BaseFooter>
+  <BaseNav/>
+  <slot></slot>
+  <BaseFooter/>
 </template>
 <script setup>
 useHead({
