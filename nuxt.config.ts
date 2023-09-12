@@ -5,9 +5,11 @@ export default defineNuxtConfig({
     '~/assets/main.css',
   ],
   modules: [
-    // '@sidebase/nuxt-auth',
+    // '@nuxt/image',
   ],
-
+  // image: {
+  //   format: ['webp']
+  // },
   postcss: {
     plugins: {
       tailwindcss: {},

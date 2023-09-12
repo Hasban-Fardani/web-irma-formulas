@@ -7,14 +7,35 @@
       <h2 class="text-center text-4xl sm:text-xl font-semibold my-4 animate-fade-left animate-once animate-duration-[999ms] animate-ease-out">
         Rumpun - Rumpun
       </h2>
+
       <div class="flex flex-wrap items-center justify-center gap-4 mx-4">
-        <img src="~/assets/img/logo-rumpun/dakwah.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
-        <img src="~/assets/img/logo-rumpun/mtq.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
-        <img src="~/assets/img/logo-rumpun/hadroh.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
-        <img src="~/assets/img/logo-rumpun/tahfidz.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
-        <img src="~/assets/img/logo-rumpun/nasyid.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
-        <img src="~/assets/img/logo-rumpun/kaligrafi.png" class="border w-fit md:w-1/3 lg:w-1/4"/>
+        <BaseRumpun name="Rumpun Dakwah" logo-path="~/assets/img/logo-rumpun/dakwah.png">
+          <p>Rumpun Dakwah</p>
+        </BaseRumpun>
+
+        <BaseRumpun name="Rumpun MTQ" logo-path="~/assets/img/logo-rumpun/mtq.png">
+          <p>Rumpun MTQ</p>
+        </BaseRumpun>
+
+        <BaseRumpun name="Hadroh" logo-path="~/assets/img/logo-rumpun/hadroh.png">
+          <p>Rumpun Hadroh</p>
+        </BaseRumpun>
+
+        <BaseRumpun name="Tahfidz" logo-path="~/assets/img/logo-rumpun/tahfidz.png">
+          <p>Rumpun Tahfidz</p>
+        </BaseRumpun>
+        
+        <BaseRumpun name="Nasyid" logo-path="~/assets/img/logo-rumpun/nasyid.png">
+          <p>Rumpun Nasyid</p>
+        </BaseRumpun>
+
+        <BaseRumpun name="Kaligrafi" logo-path="~/assets/img/logo-rumpun/kaligrafi.png">
+          <p>Rumpun Nasyid</p>
+        </BaseRumpun>
       </div>
+
+      
+
     </main>
 </template>
 <script>

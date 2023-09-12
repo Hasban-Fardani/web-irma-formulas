@@ -6,5 +6,5 @@
 <script setup>
   useHead({
     title: "Aplikasi Pemilihan Rois Roisah"
-  })
+  });
 </script>

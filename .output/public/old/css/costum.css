@@ -1,0 +1,67 @@
+button.navbar-toggler {
+  background-color: #54dbb9;
+  border: none;
+}
+
+#mainNav {
+  background-color: #C4DFAA;
+}
+
+#parentStruktur{
+  display: flex;
+  justify-content: center;
+}
+
+#struktur {
+  width: 75%;
+}
+
+.lj {
+  background-color: #54dbb9;
+}
+
+.navbar-brand {
+  color: #E9FFC2;
+}
+
+.img-slide{
+  /* height: 70%; */
+  width: 100%;
+} 
+
+.masthead {
+  background-color: white;
+  padding-top: calc(2rem + 74px);
+  padding-bottom: 5vh;
+  margin-bottom: 0;
+}
+
+.fa-angle-down {
+  background-color: gray;
+}
+
+.btn-group .btn {
+  font-weight: 700;
+  border: solid black 1px;
+  margin: 3px 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .masthead {
+    background-color: white;
+    padding-top: calc(1rem + 74px);
+    padding-bottom: 5vh;
+    margin-bottom: 0;
+  }
+
+  #sambutanKetuaRois {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #sambutanKetuaRois img {
+    text-align: center;
+  }
+}
+
