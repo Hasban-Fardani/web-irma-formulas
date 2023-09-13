@@ -1,5 +1,5 @@
 <template lang="">
-  <nav class="p-3 px-4 flex items-center justify-between">
+  <nav class="p-3 px-4 flex items-center justify-between shadow-xl">
     <div class="flex items-center gap-3">
       <img src="~/assets/img/logo-irma.png" alt="" width="50" height="50">
       <h1 class="text-lg font-bold">Pemilu FORMULAS</h1>
