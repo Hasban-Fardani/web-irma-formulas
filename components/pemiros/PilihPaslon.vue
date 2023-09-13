@@ -4,14 +4,14 @@
       <img
         src="https://picsum.photos/300/300"
         class="w-full h-full"
-        alt="Movie"
+        :alt="name"
       />
     </figure>
     <div class="card-body">
       <h2 class="card-title">New movie is released!</h2>
       <p>Click the button to watch on Jetflix app.</p>
       <div class="card-actions justify-center">
-        <button class="btn btn-primary">Pilih</button>
+        <button class="btn btn-primary" @click="pilihCalon">Pilih</button>
       </div>
     </div>
   </div>
@@ -21,7 +21,14 @@
 export default {
   props: {
     name: String,
+    no: String,
     imgPath: String,
   },
+  methods: {
+    piihCalon(){
+      this.$emit("pilih-calon", this.no)
+    }
+  },
+  emits: ["pilih-calon"]
 };
 </script>

@@ -16,9 +16,9 @@
         slogan="Berkah"
         visi=""
         misi=""
-        sambutan=""
-      />
-      <PemirosInfoPaslon
+        fotoLink="https://picsum.photos/600/600"
+        />
+        <PemirosInfoPaslon
         title="Paslon No. 2"
         id="modal2"
         no="2"
@@ -26,7 +26,7 @@
         slogan="Berkah"
         visi=""
         misi=""
-        sambutan=""
+        fotoLink="https://picsum.photos/600/600"
       />
       <PemirosInfoPaslon
         title="Paslon No. 3"
@@ -36,11 +36,11 @@
         slogan="Berkah"
         visi=""
         misi=""
-        sambutan=""
+        fotoLink="https://picsum.photos/600/600"
       />
     </div>
   
-    <NuxtLink class="btn text-lg">
+    <NuxtLink class="btn text-lg" to="pemiros/pilih">
       Pilih
     </NuxtLink>
   </div>
@@ -48,9 +48,9 @@
 <script setup>
 let modalOpen = ref(false);
 const links = [
-  "https://picsum.photos/1200/600",
-  "https://picsum.photos/1200/600",
-  "https://picsum.photos/1200/600",
+  "https://picsum.photos/1600/800",
+  "https://picsum.photos/1600/800",
+  "https://picsum.photos/1600/800",
 ];
 
 // const data = await $fetch('/api/hello');

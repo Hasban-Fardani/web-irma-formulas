@@ -9,27 +9,27 @@
       </h2>
 
       <div class="flex flex-wrap items-center justify-center gap-4 mx-4">
-        <BaseRumpun name="Rumpun Dakwah" logo-path="~/assets/img/logo-rumpun/dakwah.png">
+        <BaseRumpun name="Rumpun Dakwah" logo-path="/img/logo-rumpun/dakwah.png">
           <p>Rumpun Dakwah</p>
         </BaseRumpun>
 
-        <BaseRumpun name="Rumpun MTQ" logo-path="~/assets/img/logo-rumpun/mtq.png">
+        <BaseRumpun name="Rumpun MTQ" logo-path="/img/logo-rumpun/mtq.png">
           <p>Rumpun MTQ</p>
         </BaseRumpun>
 
-        <BaseRumpun name="Hadroh" logo-path="~/assets/img/logo-rumpun/hadroh.png">
+        <BaseRumpun name="Hadroh" logo-path="/img/logo-rumpun/hadroh.png">
           <p>Rumpun Hadroh</p>
         </BaseRumpun>
 
-        <BaseRumpun name="Tahfidz" logo-path="~/assets/img/logo-rumpun/tahfidz.png">
+        <BaseRumpun name="Tahfidz" logo-path="/img/logo-rumpun/tahfidz.png">
           <p>Rumpun Tahfidz</p>
         </BaseRumpun>
         
-        <BaseRumpun name="Nasyid" logo-path="~/assets/img/logo-rumpun/nasyid.png">
+        <BaseRumpun name="Nasyid" logo-path="/img/logo-rumpun/nasyid.png">
           <p>Rumpun Nasyid</p>
         </BaseRumpun>
 
-        <BaseRumpun name="Kaligrafi" logo-path="~/assets/img/logo-rumpun/kaligrafi.png">
+        <BaseRumpun name="Kaligrafi" logo-path="/img/logo-rumpun/kaligrafi.png">
           <p>Rumpun Nasyid</p>
         </BaseRumpun>
       </div>
@@ -43,9 +43,9 @@
     data(){
       return {
         links: [
-          "~/assets/img/slide/jb-1-min.jpg",
-          "~/assets/img/slide/jb-2-min.jpg",
-          "~/assets/img/slide/jb-3-min.png",
+          "/img/slide/jb-1-min.jpg",
+          "/img/slide/jb-2-min.jpg",
+          "/img/slide/jb-3-min.png",
         ]
       }
     },

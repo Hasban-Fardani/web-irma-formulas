@@ -5,11 +5,11 @@ export default defineNuxtConfig({
     '~/assets/main.css',
   ],
   modules: [
-    // '@nuxt/image',
+    '@nuxt/image',
   ],
-  // image: {
-  //   format: ['webp']
-  // },
+  image: {
+    format: ['webp']
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

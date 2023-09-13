@@ -60,6 +60,12 @@
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
+      ],
       "#vue-router": [
         "./vue-router"
       ],

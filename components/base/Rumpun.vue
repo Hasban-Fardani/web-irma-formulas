@@ -1,8 +1,8 @@
 <template lang="">
-    <BaseModal class="border w-fit md:w-1/3 lg:w-1/4" title="Rumpun Dakwah">
+    <BaseModal class="border w-fit md:w-1/3 lg:w-1/4" :title="name">
       <template #trigger>
-        <!-- <img :src="~/assets/img/logo-rumpun/dakwah.png" /> -->
-        <img :src="logoPath.replace('~','_nuxt')"/>
+        <!-- <img :src="/img/logo-rumpun/dakwah.png" /> -->
+        <img :src="logoPath.replace('~','_nuxt')" :alt="name"/>
       </template>
       <template #content>
         <slot/>

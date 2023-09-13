@@ -1,7 +1,7 @@
 <template lang="">
   <div class="flex flex-col items-center justify-center">
     <div class="flex flex-col items-center justify-center my-20">
-      <img src="~/assets/img/logo-irma.png" alt="" class="my-2 w-1/2 h-auto" />
+      <img src="/img/logo-irma.png" alt="" class="my-2 w-1/2 h-auto" />
       <h1 class="text-xl my-3">IRMA FORMULAS</h1>
     </div>
     <div class="rounded-xl bg-green-600 w-full p-4 h-[55vh] pb-96">

@@ -2,7 +2,7 @@
   <nav class="navbar bg-base-100 p-4">
     <div class="flex-1">
       <nuxt-link to="/" class="flex items-center gap-2 normal-case text-xl">
-        <img src="~/assets/img/logo-irma.png" alt="" class="w-[50px] h-auto" />
+        <img src="/img/logo-irma.png" alt="" class="w-[50px] h-auto" />
         IRMA FORMULAS
       </nuxt-link>
     </div>

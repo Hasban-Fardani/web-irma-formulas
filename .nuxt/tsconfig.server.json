@@ -53,6 +53,12 @@
       ],
       "public/*": [
         "../public/*"
+      ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
       ]
     }
   },

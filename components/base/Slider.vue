@@ -20,7 +20,7 @@
           :key="index"
           :class="{ 'carousel-item': true, active: index === currentIndex }"
         >
-          <img :src="image.replace('~', '_nuxt')" alt="" class="w-full h-auto">
+          <nuxt-img :src="image" :alt="image" sizes="sm: 400px md:800px lg:1200px"/>
         </div>
       </div>
     </transition>
