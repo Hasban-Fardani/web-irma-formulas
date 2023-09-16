@@ -12,7 +12,7 @@
       style="background-color: rgba(0, 0, 0, 0.5)"
       @click.self="closeModal"
     >
-      <div class=" bg-white w-1/2 p-4 rounded-lg shadow-lg" @click.stop>
+      <div class=" bg-white w-5/6 md:w-3/4 lg:w-1/2 min-w-[250px] p-4 rounded-lg shadow-lg" @click.stop>
         <!-- Konten modal -->
         <h2 class="text-lg font-semibold mb-4">{{ title }}</h2>
         

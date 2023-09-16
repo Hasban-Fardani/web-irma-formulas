@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators flex gap-2 justify-center">
       <button
         v-for="(image, index) in images"
         :key="index"
@@ -20,16 +20,10 @@
           :key="index"
           :class="{ 'carousel-item': true, active: index === currentIndex }"
         >
-          <nuxt-img :src="image" :alt="image" sizes="sm: 400px md:800px lg:1200px"/>
+          <nuxt-img :src="image" :alt="image" sizes="sm: 400px md:800px lg:1600px"/>
         </div>
       </div>
     </transition>
-    <button @click="prev" class="carousel-control-prev" aria-label="Previous">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button @click="next" class="carousel-control-next" aria-label="Next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
   </div>
 </template>
 
@@ -94,7 +88,7 @@ export default {
 }
 
 .carousel-indicators button {
-  @apply w-4 h-4 m-1 bg-gray-400 rounded-full; /* Menggunakan DaisyUI CSS class */
+  @apply w-6 h-6 m-1 bg-gray-400 rounded-full ; /* Menggunakan DaisyUI CSS class */
   cursor: pointer;
 }
 

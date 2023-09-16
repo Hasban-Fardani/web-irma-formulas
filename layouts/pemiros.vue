@@ -16,6 +16,6 @@
     ],
     htmlAttrs: [
       {lang: "id"}
-    ]
+    ],
   });
 </script>

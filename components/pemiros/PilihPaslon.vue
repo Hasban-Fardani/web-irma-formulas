@@ -1,16 +1,16 @@
 <template lang="">
-  <div class="card bg-base-100 shadow-xl">
+  <div class="card bg-base-100 shadow-xl w-80">
     <figure>
       <img
         src="https://picsum.photos/300/300"
-        class="w-full h-full"
         :alt="name"
+        class="w-full"
       />
     </figure>
     <div class="card-body">
-      <h2 class="card-title">New movie is released!</h2>
-      <p>Click the button to watch on Jetflix app.</p>
+      <h1 class="card-title">{{name}}</h1>
       <div class="card-actions justify-center">
+        <button class="btn btn-primary"> Visi Misi</button>
         <button class="btn btn-primary" @click="pilihCalon">Pilih</button>
       </div>
     </div>
@@ -21,7 +21,7 @@
 export default {
   props: {
     name: String,
-    no: String,
+    no: Number,
     imgPath: String,
   },
   methods: {
