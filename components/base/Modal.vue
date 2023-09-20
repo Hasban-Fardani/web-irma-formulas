@@ -1,5 +1,4 @@
 <template>
-  <div>
     <!-- Tombol untuk membuka modal -->
     <div @click="openModal">
       <slot name="trigger"/>
@@ -24,7 +23,6 @@
         </button>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

@@ -3,19 +3,17 @@ definePageMeta({
   layout: "pemiros",
 });
 
-const url = "http://localhost:8080";
+// const url = "http://localhost:8080"
+const url = "http://13.212.39.132:8080";
+console.log("be url: ",url);
+const tahun = new Date().getFullYear().toString();
 
-let data = await useFetch(
-  url + "/paslon/?tahun=" + new Date().getFullYear().toString(),
-  { 
-    method: "get",
-    server: false , 
-    headers:{ "Access-Control-Allow-Origin": "*", 'Access-Control-Allow-Headers': '*', }
-  }
-);
+const { data, pending } = await useFetch(`${url}/paslon/?tahun=${tahun}`, {
+  method: "get",
+  // lazy: true,
+});
 
-console.log(data.data);
-let listPaslon = data.data.value["data"];
+const listPaslon = data.value.data
 
 const links = [
   "https://picsum.photos/1600/800",
@@ -24,8 +22,8 @@ const links = [
 ];
 </script>
 
-<template lang="">
-  <div class="flex flex-col justify-center items-center">
+<template>
+  <div v-if="!pending" class="flex flex-col justify-center items-center">
     <BaseSlider :images="links" />
     <nuxt-link to="/">
       <h2 class="text-lg md:text-2xl font-bold my-4 mt-20">
@@ -45,10 +43,10 @@ const links = [
         fotoLink="https://picsum.photos/400/400"
       />
     </div>
-    <NuxtLink class="btn text-lg" to="pemiros/pilih"> Pilih </NuxtLink>
-    <!-- {{listPaslon[0]["Visi"]}} -->
+    <NuxtLink class="btn btn-primary text-lg" to="/pemiros/pilih">
+      Pilih</NuxtLink
+    >
   </div>
-  <h1></h1>
 </template>
 
 <style lang="css">

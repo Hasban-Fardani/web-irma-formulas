@@ -1,65 +1,80 @@
 const client_manifest = {
-  "Modal.css": {
+  "Slider.css": {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "Modal.dc16a1a7.css",
-    "src": "Modal.css"
+    "file": "Slider.4bff11a8.css",
+    "src": "Slider.css"
   },
-  "_Modal.1991ae31.js": {
+  "_Slider.bfa93ac8.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "css": [
-      "Modal.dc16a1a7.css"
+      "Slider.4bff11a8.css"
     ],
-    "file": "Modal.1991ae31.js",
+    "file": "Slider.bfa93ac8.js",
     "imports": [
+      "_nuxt-img.b914e525.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "Modal.dc16a1a7.css": {
-    "file": "Modal.dc16a1a7.css",
+  "Slider.4bff11a8.css": {
+    "file": "Slider.4bff11a8.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
   },
-  "_logo-irma.cb3649ef.js": {
+  "_fetch.2b20bad8.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "assets": [
-      "logo-irma.db7514e5.png"
-    ],
-    "file": "logo-irma.cb3649ef.js",
+    "file": "fetch.2b20bad8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "logo-irma.db7514e5.png": {
-    "file": "logo-irma.db7514e5.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
-  },
-  "_nuxt-link.fdbc515f.js": {
+  "_logo-irma.1552b2d2.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.fdbc515f.js",
+    "file": "logo-irma.1552b2d2.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "assets/img/logo-irma.png": {
-    "resourceType": "image",
+  "_nuxt-img.b914e525.js": {
+    "resourceType": "script",
+    "module": true,
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "logo-irma.db7514e5.png",
-    "src": "assets/img/logo-irma.png"
+    "preload": true,
+    "file": "nuxt-img.b914e525.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_nuxt-link.29f0af1e.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "nuxt-link.29f0af1e.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_token.6a5bdd52.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "token.6a5bdd52.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
   },
   "layouts/default.css": {
     "resourceType": "style",
@@ -74,10 +89,10 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "default.f0c29579.js",
+    "file": "default.8b56e7ff.js",
     "imports": [
-      "_nuxt-link.fdbc515f.js",
-      "_logo-irma.cb3649ef.js",
+      "_nuxt-link.29f0af1e.js",
+      "_logo-irma.1552b2d2.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -94,10 +109,11 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "pemiros.f0bfbcbc.js",
+    "file": "pemiros.e6f7202b.js",
     "imports": [
-      "_nuxt-link.fdbc515f.js",
-      "_logo-irma.cb3649ef.js",
+      "_nuxt-img.b914e525.js",
+      "_nuxt-link.29f0af1e.js",
+      "_token.6a5bdd52.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -116,9 +132,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.26468b6c.js",
+    "file": "error-404.9786e636.js",
     "imports": [
-      "_nuxt-link.fdbc515f.js",
+      "_nuxt-link.29f0af1e.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -143,7 +159,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.3ab33359.js",
+    "file": "error-500.5a03749b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -167,7 +183,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.1f39f16b.js",
+    "file": "entry.1ce3a925.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -177,7 +193,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "about.fff1749c.js",
+    "file": "about.6c4c2cbf.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -188,7 +204,7 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "index.d16225ac.css",
+    "file": "index.c329942d.css",
     "src": "pages/index.css"
   },
   "pages/index.vue": {
@@ -197,16 +213,17 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "index.37b62718.js",
+    "file": "index.f941f381.js",
     "imports": [
-      "_Modal.1991ae31.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "_Slider.bfa93ac8.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_nuxt-img.b914e525.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
   },
-  "index.d16225ac.css": {
-    "file": "index.d16225ac.css",
+  "index.c329942d.css": {
+    "file": "index.c329942d.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -215,7 +232,7 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "index.6ea4df18.css",
+    "file": "index.58a70bc4.css",
     "src": "pages/pemiros/index.css"
   },
   "pages/pemiros/index.vue": {
@@ -224,56 +241,47 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "index.fa56c2bc.js",
+    "file": "index.a22f8487.js",
     "imports": [
-      "_Modal.1991ae31.js",
-      "_nuxt-link.fdbc515f.js",
+      "_Slider.bfa93ac8.js",
+      "_nuxt-link.29f0af1e.js",
+      "_nuxt-img.b914e525.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/pemiros/index.vue"
   },
-  "index.6ea4df18.css": {
-    "file": "index.6ea4df18.css",
+  "index.58a70bc4.css": {
+    "file": "index.58a70bc4.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
-  },
-  "pages/pemiros/login.css": {
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true,
-    "file": "login.599dfdb2.css",
-    "src": "pages/pemiros/login.css"
   },
   "pages/pemiros/login.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "login.8d3ea290.js",
+    "file": "login.b029e83c.js",
     "imports": [
-      "_logo-irma.cb3649ef.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "node_modules/nuxt/dist/app/entry.js",
+      "_fetch.2b20bad8.js",
+      "_logo-irma.1552b2d2.js",
+      "_token.6a5bdd52.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/pemiros/login.vue"
-  },
-  "login.599dfdb2.css": {
-    "file": "login.599dfdb2.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
   },
   "pages/pemiros/pilih.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "pilih.bbb5367a.js",
+    "file": "pilih.42679552.js",
     "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
+      "node_modules/nuxt/dist/app/entry.js",
+      "_fetch.2b20bad8.js",
+      "_token.6a5bdd52.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/pemiros/pilih.vue"

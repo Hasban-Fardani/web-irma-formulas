@@ -2,7 +2,7 @@
 
   <div class="card w-96 bg-base-100 shadow-xl hover:shadow-xl">
     <figure>
-      <nuxt-img :src="fotoLink" :alt="name" sizes="sm: 80vw md:50vw lg:300px" />
+      <nuxt-img :src="fotoLink" :alt="name" sizes="sm: 80vw md:50vw lg:300px" loading="lazy"/>
     </figure>
     <div class="card-body">
       <span class="flex justify-start w-min bg-green-300 py-5 px-2 absolute text-xl"> {{ no }}</span>

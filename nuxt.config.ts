@@ -6,9 +6,17 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxt/image',
+    '@pinia/nuxt',
   ],
   image: {
     format: ['webp']
+  },
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      'defineStore', // import { defineStore } from 'pinia'
+      ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+    ],
   },
   postcss: {
     plugins: {
@@ -16,4 +24,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  
 })
