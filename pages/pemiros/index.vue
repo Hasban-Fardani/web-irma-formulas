@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 // const url = "http://localhost:8080"
-const url = "http://13.212.39.132:8080";
+const url = "https://be-pemiros.fly.dev/";
 console.log("be url: ",url);
 const tahun = new Date().getFullYear().toString();
 

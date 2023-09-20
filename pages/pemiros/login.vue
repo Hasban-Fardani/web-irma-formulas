@@ -16,7 +16,7 @@ const submitLogin = async () => {
   const usr = username.value;
   const pw = password.value;
   // const url = "http://localhost:8080/akun/login";
-  const url = "http://13.212.39.132:8080/akun/login";
+  const url = "https://be-pemiros.fly.dev/akun/login";
   try {
     const {data } = await useFetch(url, {
       method: "post",
